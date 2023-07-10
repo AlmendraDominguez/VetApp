@@ -1,0 +1,24 @@
+
+
+#contenedor_formulario_adopciones {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#wrapper_componente_form_adopciones > h1 {
+    font-size: 2rem;
+}
+
+#adopcion_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#adopcion_form > * {
+    min-width: 50%;
+}
