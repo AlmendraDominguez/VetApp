@@ -119,10 +119,10 @@ const EditarMascota = () => {
             </select>
           </div>
           <div className="container_campo" id="campos">
-            <label htmlFor="edad">Edad (años)</label>
+            <label htmlFor="edad">Nacimiento</label>
             <input
               value={Edad}
-              type="text"
+              type="date"
               name="edad"
               required
               onChange={(e) => setEdad(e.target.value)}

@@ -71,7 +71,7 @@ const AgregarMascota = () => {
                     </div>
                     <div className="container_campo">
                         <label htmlFor="edad">Edad (años)</label>
-                        <input type="text" name="edad" required onChange={(e) => setEdad(e.target.value)}></input>
+                        <input type="date" name="edad" required onChange={(e) => setEdad(e.target.value)}></input>
                     </div>
                     <button className="volver" type="submit" onClick={crearMascota}>Cargar Mascota</button>
                     <Link to={`/misMascotas/${id}`}>

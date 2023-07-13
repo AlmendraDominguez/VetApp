@@ -1,5 +1,5 @@
 .container_mascotas{
-    min-height: 85vh;
+    min-height: 100vh;
 }
 
 
@@ -32,7 +32,7 @@
 }
 
 .Container_DatosMascota {
-    width: 50%;
+    width: 55%;
 }
 
 .Campo_Container_mascotas {

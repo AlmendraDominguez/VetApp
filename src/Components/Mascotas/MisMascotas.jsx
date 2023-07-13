@@ -129,7 +129,7 @@ const MisMascotas = () => {
                                 <p className='Datos_Campo_mascotas'>{mascota.Sexo}</p>
                             </div>
                             <div className="Campo_Container_mascotas">
-                                <span className="Titulo_Campo_mascotas">Edad(años):</span>
+                                <span className="Titulo_Campo_mascotas">Nacimiento:</span>
                                 <p className='Datos_Campo_mascotas'>{mascota.Edad}</p>
                             </div>
                             <div className="bot">

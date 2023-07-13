@@ -1,4 +1,3 @@
-import { Card, Carousel } from 'react-bootstrap';
 import "./QuienesSomos.css"
 
 
@@ -8,6 +7,7 @@ const QuienesSomos = () => {
 
   return(
     <>
+    {/* <div className="container_quienesSomos"> */}
     <div id="div_img_quienesSomos">
 
         <div id="img_text_quienesSomos">
@@ -23,52 +23,53 @@ const QuienesSomos = () => {
     </div>
 
     <div>
-      <h3 className="esp"><img src="./logoBlanco.jpg"
-        alt="Responsive image" className="logoBlanco"/> Nuestro equipo </h3>
-  
-      <div className="row row-cols-1 row-cols-md-2 g-4">
-        <div className="col">
-          <div className="card">
-            <img src="./5.jpeg" class="card-img-top" alt="Responsive image"/>
-              <div className="card-body">
+      <h3 className="esp"><img src="./logoBlanco.jpg" className="logoBlanco"/> Quienes nos acompañan <img src="./logoBlanco.jpg" className="logoBlanco"/></h3>
 
-                <h5 className="card-title"> Dra. Patricia Hernández y Dr. Nicolás Sáenz</h5>
-                <p className="card-text">Clínica Médica</p>
-              </div>
+      <div className="cards">
+        <div className="card_QuienesSomos">
+          <img src="./doc3mod.png" class="card-img-top"/>
+          <div className="card-body">
+              <h5 className="card-title">Dra. Patricia Hernández</h5>
+              <p className="card-text">Oftalmología</p>              
           </div>
         </div>
 
-        <div className="col">
-          <div className="card">
-            <img src="./4.jpeg" class="card-img-top" alt="Responsive image"/>
-              <div className="card-body">
-                <h5 className="card-title">Dra. Carla Sevilla</h5>
-                <p className="card-text">Especialista en Nutrición.</p>
-              </div>
+        <div className="card_QuienesSomos">
+          <img src="./doc7mod.png" class="card-img-top"/>
+          <div className="card-body">
+              <h5 className="card-title">Dr. Nicolás Sáenz</h5>
+              <p className="card-text">Clínica Médica</p>              
           </div>
         </div>
 
-        <div className="col">
-          <div className="card">
-            <img src="./dx2.jpg" class="card-img-top" alt="Responsive image"/>
-            <div className="card-body">
-              <h5 className="card-title">Dr. Carlos Spina</h5>
-              <p className="card-text">Traumatología y Diagnóstico por Imagénes.</p>
-            </div>
+        <div className="card_QuienesSomos">
+          <img src="./doc5.png" class="card-img-top"/>
+          <div className="card-body">
+              <h5 className="card-title">Dra. Carla Sevilla</h5>
+              <p className="card-text">Neurología</p>              
           </div>
         </div>
 
-        <div className="col">
-          <div className="card">
-            <img src="./RV.jpg" class="card-img-top" alt="Responsive image"/>
-            <div className="card-body">
-              <h5 className="card-title"> Dra. Andrea Diaz y Dr. Juan Goncalves</h5>
-              <p className="card-text">Cirugia General</p>
-              </div>
-            </div>
+        <div className="card_QuienesSomos">
+          <img src="./doc1mod.png" class="card-img-top"/>
+          <div className="card-body">
+              <h5 className="card-title">Dra. María Massera</h5>
+              <p className="card-text">Neurología</p>              
           </div>
         </div>
-</div>
+
+        <div className="card_QuienesSomos">
+          <img src="./doc8mod.png" class="card-img-top"/>
+          <div className="card-body">
+              <h5 className="card-title">Dr. Marcos Spina</h5>
+              <p className="card-text">Endocrinología</p>              
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+{/* </div> */}
 </>
   
   )

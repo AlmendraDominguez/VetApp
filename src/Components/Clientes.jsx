@@ -94,7 +94,7 @@ const Clientes = () => {
     return (
 
         <>
-            <div className="container">
+            <div className="container-clientes">
                 <h1 className="titulo_pagina">Clientes</h1>
                 <Table striped>
                     <thead>

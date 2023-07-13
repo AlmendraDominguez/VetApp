@@ -3,9 +3,9 @@ import { useParams, useNavigate, Link } from "react-router-dom";
 import { getDoc, updateDoc, doc } from "firebase/firestore";
 import { db } from "../firebaseConfig/firebase"
 import { AuthContext } from "../firebaseConfig/AuthProvider"
-import "./Editar.css"
+import "./EditarAdopcion.css"
 
-const Editar = () => {
+const EditarAdopcion = () => {
     const [Nombre, setNombre] = useState("")
     const [Foto, setFoto] = useState("")
     const [Especie, setEspecie] = useState("Perro")
@@ -113,4 +113,4 @@ const Editar = () => {
     )
 }
 
-export default Editar;
+export default EditarAdopcion ;
