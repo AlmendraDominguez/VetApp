@@ -27,7 +27,7 @@ const QuienesSomos = () => {
 
       <div className="cards">
         <div className="card_QuienesSomos">
-          <img src="./doc3mod.png" class="card-img-top"/>
+          <img src="./doc3mod.png" className="card-img-top"/>
           <div className="card-body">
               <h5 className="card-title">Dra. Patricia Hernández</h5>
               <p className="card-text">Oftalmología</p>              
@@ -35,7 +35,7 @@ const QuienesSomos = () => {
         </div>
 
         <div className="card_QuienesSomos">
-          <img src="./doc7mod.png" class="card-img-top"/>
+          <img src="./doc7mod.png" className="card-img-top"/>
           <div className="card-body">
               <h5 className="card-title">Dr. Nicolás Sáenz</h5>
               <p className="card-text">Clínica Médica</p>              
@@ -43,7 +43,7 @@ const QuienesSomos = () => {
         </div>
 
         <div className="card_QuienesSomos">
-          <img src="./doc5.png" class="card-img-top"/>
+          <img src="./ddd.png" className="card-img-top"/>
           <div className="card-body">
               <h5 className="card-title">Dra. Carla Sevilla</h5>
               <p className="card-text">Neurología</p>              
@@ -51,17 +51,17 @@ const QuienesSomos = () => {
         </div>
 
         <div className="card_QuienesSomos">
-          <img src="./doc1mod.png" class="card-img-top"/>
+          <img src="./docs.png" className="card-img-top"/>
           <div className="card-body">
-              <h5 className="card-title">Dra. María Massera</h5>
-              <p className="card-text">Neurología</p>              
+              <h5 className="card-title">Dr. Marcos Spina</h5>
+              <p className="card-text">Inmunólogo</p>              
           </div>
         </div>
 
         <div className="card_QuienesSomos">
-          <img src="./doc8mod.png" class="card-img-top"/>
+          <img src="./dddd.png" className="card-img-top"/>
           <div className="card-body">
-              <h5 className="card-title">Dr. Marcos Spina</h5>
+              <h5 className="card-title">Dra. María Massera</h5>
               <p className="card-text">Endocrinología</p>              
           </div>
         </div>

@@ -24,6 +24,7 @@ import Adopcion from './Components/Adopciones/Adopcion.jsx';
 import AgregarAdopcion from './Components/Adopciones/AgregarAdopcion.jsx';
 import FormularioDeAdopciones from './Components/Adopciones/FormularioDeAdopciones.jsx';
 import Turnos from './Components/Turnos/Turnos.jsx';
+import Turno from './Components/Turno/Turno.jsx';
 import EditarTurno from './Components/Turnos/EditarTurno.jsx'
 import AgendarTurno from './Components/Turnos/AgendarTurno.jsx';
 import Clientes from './Components/Clientes.jsx';
@@ -113,7 +114,7 @@ const router = createBrowserRouter([
       },
       {
         path: "turnos",
-        element: <Turnos />
+        element: <Turno />
       },
       {
         path: "/editarTurno/:fechaTurno/:horaTurno",

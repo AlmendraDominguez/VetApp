@@ -2,7 +2,7 @@
 Sistema de consultas para veterinaria
 
 Credenciales como usuario y como administrador. 
-Uso de tecnologías: firebase authentication, firebase firestore database, firebase Storage?, react, vite. 
+Uso de tecnologías: firebase authentication, firestore database, firebase Storage?, react, vite. 
 Funcionalidad de la página.
 Estado del proyecto: en constante mejora.
 
@@ -10,10 +10,11 @@ Cosas por hacer:
 -Recuperar contraseña
 -Modificar email
 -Autenticacion de email con link
--Usuarios ordinarios vs administrativos
--Sistema de turnos, según especialidades
--Incluir un buscador en Clientes
+-Usuarios ordinarios vs administrativos 222222222222
+-Sistema de turnos, según especialidades 11111111111
+-Incluir un buscador en Clientes 3333333333333333333 
 -Adopciones, profesionales :usar Storage para las imagenes. Crear path.
+-Hacerlo responsive
 
 
 Tecnologías para el próximo: SQL, JAVA, Bootstrap. 
