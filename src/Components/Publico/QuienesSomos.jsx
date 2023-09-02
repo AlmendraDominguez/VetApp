@@ -7,7 +7,6 @@ const QuienesSomos = () => {
 
   return(
     <>
-    {/* <div className="container_quienesSomos"> */}
     <div id="div_img_quienesSomos">
 
         <div id="img_text_quienesSomos">
@@ -69,7 +68,6 @@ const QuienesSomos = () => {
       </div>
 
     </div>
-{/* </div> */}
 </>
   
   )

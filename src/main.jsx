@@ -25,15 +25,12 @@ import AgregarAdopcion from './Components/Adopciones/AgregarAdopcion.jsx';
 import FormularioDeAdopciones from './Components/Adopciones/FormularioDeAdopciones.jsx';
 import Clientes from './Components/Clientes.jsx';
 
-//creamos el router que determina las rutas y que elementos renderizan
 const router = createBrowserRouter([
   {
     path: "/VetApp",
     element: <App />,
-    //con children definimos rutas hijo que se renderizaran dentro de las rutas padre.
     children: [
       {
-        index: true, // la prop index indica que la ruta se renderiza por default con la url padre ("/")
         element: <Inicio />
       },
       {
@@ -117,11 +114,7 @@ const router = createBrowserRouter([
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  // el elemento RouterProvider utiliza el router para renderizar nuestras rutas.
-
   <AuthProvider>
-  
-  <RouterProvider router={router}></RouterProvider>
-  
+    <RouterProvider router={router}></RouterProvider>
   </AuthProvider>
 )

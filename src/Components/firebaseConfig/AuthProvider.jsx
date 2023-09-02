@@ -16,7 +16,6 @@ export const AuthProvider = ({ children }) => {
         setCurrentUser(null);
       }
     });
-    // console.log(currentUser);
   }, []);
 
   return (

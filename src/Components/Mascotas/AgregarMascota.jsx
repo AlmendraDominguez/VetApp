@@ -1,5 +1,3 @@
-//campos para el cliente: nombre, apellido, direccion, numero de telefono, email!, 
-//campos para la mascota: nombre, especie, raza, sexo, edad/nacimiento, pelaje, castrado? 
 import { useState, useContext } from "react";
 import { useNavigate, useParams, Link } from "react-router-dom"
 import { collection, addDoc } from "firebase/firestore"

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-/* efectos por defecto */
+
 body {
     font-weight: normal;
     font-size: 100%;
@@ -9,7 +9,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* efectos para el contenedor de pantalla completa */
 #container {
   display: flex;
     align-items: center;

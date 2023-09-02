@@ -99,7 +99,6 @@ const Clientes = () => {
                 <Table striped>
                     <thead>
                         <tr>
-                            {/* <th>Id</th> */}
                             <th>Nombre</th>
                             <th>Apellido</th>
                             <th>Email</th>
@@ -111,7 +110,6 @@ const Clientes = () => {
                     <tbody>
                         {clientes.map((cliente) => (
                             <tr key={cliente.id}>
-                                {/* <td>{cliente.id}</td> */}
                                 <td className="align-middle">{cliente.Nombre}</td>
                                 <td className="align-middle">{cliente.Apellido}</td>
                                 <td className="align-middle">{cliente.Email}</td>

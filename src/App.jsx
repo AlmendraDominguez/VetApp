@@ -6,7 +6,6 @@ import Footer from './Components/Footer'
 function App() {
 
   return (
-    //El componente Outlet le dice a react router en donde se renderizan las rutas hijo.
     <div id="app">
       <NavBar />
       <div id="wrapper" >
