@@ -27,7 +27,7 @@ const Login = () => {
       .then(() => {
         console.log("Ingreso correcto");
 
-        navigate("/");
+        navigate("/VetApp");
       })
       .catch((error) => {
         // alert(`Error: ${error.code} - ${error.message}\nHa habido un error!`);
@@ -89,7 +89,7 @@ const Login = () => {
             Ingresar
           </button>
           <br />
-          <Link to={"/register"} className="log1">
+          <Link to={"/VetApp/register"} className="log1">
             ¿No tienes Cuenta? <b>Registrate</b>
           </Link>
         </form>

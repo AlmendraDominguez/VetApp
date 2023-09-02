@@ -34,9 +34,6 @@ const Perfil = () => {
       <div className="container_perfil">
         <BsFillFilePersonFill size={"10rem"} />
         <form action="">
-          {/* <div className="container_campo">
-            <label htmlFor="id">Id Cliente: {uid}</label>
-          </div> */}
           <div className="container_campo campo_edit">
             <label htmlFor="nombre">Nombre: {Nombre}</label>
           </div>
@@ -48,10 +45,10 @@ const Perfil = () => {
               Email: {Email}
             </label>
           </div>
-          <Link to={`/editarPerfil/${uid}`}>
+          <Link to={`/VetApp/editarPerfil/${uid}`}>
             <button className="volver">Editar</button>
           </Link>
-          <Link to={`/`}>
+          <Link to={`/VetApp`}>
             <button className="volver">Volver</button>
           </Link>
         </form>

@@ -35,7 +35,7 @@ const EditarAdopcion = () => {
             Caracteristicas: Caracteristicas
         };
         await updateDoc(adopcionDoc, data);
-        navigate(`/adopcion/${id}`);
+        navigate(`/VetApp/adopcion/${id}`);
     };
 
     const getAdopcion = async () => {
@@ -103,7 +103,7 @@ const EditarAdopcion = () => {
                         <textarea  value={Caracteristicas} name="caracteristicas" id="caracteristicas" cols="25" rows="5" required onChange={(e) => setCaracteristicas(e.target.value)}></textarea>
                     </div>
                     <button className="volver" type="submit">Guardar</button>
-                    <Link to={`/adopcion/${id}`}>
+                    <Link to={`/VetApp/adopcion/${id}`}>
                         <button className="volver">Volver</button>
                     </Link>
                 </form>

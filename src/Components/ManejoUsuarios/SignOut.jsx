@@ -13,7 +13,7 @@ const SignOut = () => {
         signOut(auth).then(() => {
             console.log("Cerraste sesion");
             
-            navigate('/')
+            navigate('/VetApp')
             }).catch((error) => {
             console.log("Error: ", error);
         });

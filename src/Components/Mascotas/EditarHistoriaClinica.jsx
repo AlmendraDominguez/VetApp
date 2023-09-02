@@ -23,7 +23,7 @@ const EditarHistoriaClinica = () => {
       Consulta: Consulta
     };
     await updateDoc(entradaDoc, data);
-    navigate(`/historiaClinica/${idUsuario}/${id}`);
+    navigate(`/VetApp/historiaClinica/${idUsuario}/${id}`);
   };
 
   const getEntrada = async () => {
@@ -51,7 +51,7 @@ const EditarHistoriaClinica = () => {
         <textarea className="texto_consulta" value={Consulta} name="" id="" cols="30" rows="10" onChange={(e) => setConsulta(e.target.value)}></textarea>
         <button className="volver" onClick={update}>Guardar</button>
       </div>
-      <Link to={`/historiaClinica/${idUsuario}/${id}`}>
+      <Link to={`/VetApp/historiaClinica/${idUsuario}/${id}`}>
         <button className="volver">Volver</button>
       </Link>
     </div>

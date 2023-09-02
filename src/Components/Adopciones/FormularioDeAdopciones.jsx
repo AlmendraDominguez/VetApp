@@ -84,7 +84,7 @@ const FormularioDeAdopciones = () => {
                     </div>
                     <div>
                         <button type="submit" className="volver">Enviar</button>
-                        <Link to={"/adopciones"}>
+                        <Link to={"/VetApp/adopciones"}>
                             <button className="volver">Volver</button>
                         </Link>
                     </div>

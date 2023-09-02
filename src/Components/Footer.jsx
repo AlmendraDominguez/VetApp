@@ -22,8 +22,6 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-
-            {/* <div>Seguinos en redes!</div> */}
         </>
     );
 }

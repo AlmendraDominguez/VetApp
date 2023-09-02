@@ -34,7 +34,7 @@ const AgregarMascota = () => {
             Sexo: Sexo,
             Edad: Edad
         })
-        navigate(`/misMascotas/${id}`)
+        navigate(`/VetApp/misMascotas/${id}`)
 
     }
 
@@ -74,7 +74,7 @@ const AgregarMascota = () => {
                         <input type="date" name="edad" required onChange={(e) => setEdad(e.target.value)}></input>
                     </div>
                     <button className="volver" type="submit" onClick={crearMascota}>Cargar Mascota</button>
-                    <Link to={`/misMascotas/${id}`}>
+                    <Link to={`/VetApp/misMascotas/${id}`}>
                         <button className="volver">Volver</button>
                     </Link>
                 </form>

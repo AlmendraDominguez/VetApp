@@ -52,7 +52,7 @@ const LogInLinks = ({ isUserLoggedIn, id, getAdopciones }) => {
     if (isUserLoggedIn && user.email == 'admin@gmail.com') {
         return (
             <>
-                <Link to={`/editar/${id}`} className="boton_editar btn btn-primary">
+                <Link to={`/VetApp/editar/${id}`} className="boton_editar btn btn-primary">
                     <i className="fa-solid fa-pencil"></i>
                 </Link>
                 <button onClick={() => { confirmDelete(id) }} className="boton_borrar btn btn-danger">
@@ -114,7 +114,7 @@ const Adopciones = () => {
                     de comenzar con el proceso de adopcion. 
                     ¡Completá el formulario y nos contactaremos!
                 </p>
-                <Link to={"/formulario"}>
+                <Link to={"/VetApp/formulario"}>
                     <div>
                         <button className="botones_adoptar" id="form_adop1">¡Quiero adoptar!</button>
                     </div>
@@ -130,7 +130,7 @@ const Adopciones = () => {
                         </div>
                         <div className="tarjeta_adopciones_titulo">{adopcion.Nombre}</div>
                         <div className="tarjeta_adopciones_pie">
-                            <Link to={`/adopcion/${adopcion.id}`}><button>Más información</button></Link>
+                            <Link to={`/VetApp/adopcion/${adopcion.id}`}><button>Más información</button></Link>
                         </div>
                         <div className="tarjeta_adopciones_bot">
                             <LogInLinks isUserLoggedIn={isUserLoggedIn} id={adopcion.id} getAdopciones={getAdopciones}></LogInLinks>
@@ -139,13 +139,13 @@ const Adopciones = () => {
             </div>
             
             {isAdmin && (
-                <Link to={"/agregarAdopcion"}>
+                <Link to={"/VetApp/agregarAdopcion"}>
                     <button id="boton-agregar-adopcion">Agregar nueva Adopción</button>
                 </Link>
             )}
 
             <div>
-                <Link to={"/formulario"}>
+                <Link to={"/VetApp/formulario"}>
                     <div>
                         <button className="botones_adoptar" id="form_adop2">¡Quiero adoptar!</button>
                     </div>

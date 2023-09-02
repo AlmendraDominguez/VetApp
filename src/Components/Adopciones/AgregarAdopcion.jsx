@@ -35,7 +35,7 @@ const AgregarAdopcion = () => {
             Edad: Edad,
             Caracteristicas: Caracteristicas
         })
-        navigate("/adopciones")
+        navigate("/VetApp/adopciones")
     }
 
     return (
@@ -84,7 +84,7 @@ const AgregarAdopcion = () => {
                     </div>
                     <div>
                         <button className="volver" type="submit" onClick={agregarAdopcion}>Agregar</button>
-                        <Link to={`/adopciones`}>
+                        <Link to={`/VetApp/adopciones`}>
                             <button className="volver">Volver</button>
                         </Link>
                     </div>

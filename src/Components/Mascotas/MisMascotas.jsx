@@ -50,7 +50,7 @@ const LogInLinks = ({ isUserLoggedIn, idUsuario, idMascota, getMascotas }) => {
     if (isUserLoggedIn && user.email == 'admin@gmail.com') {
         return (
             <>
-                <Link to={`/editarMascota/${idUsuario}/${idMascota}`} className="boton_editar btn btn-light">
+                <Link to={`/VetApp/editarMascota/${idUsuario}/${idMascota}`} className="boton_editar btn btn-light">
                     <i className="fa-solid fa-pencil"></i>
                 </Link>
                 <button onClick={() => { confirmDelete() }} className="boton_borrar btn btn-danger">
@@ -136,7 +136,7 @@ const MisMascotas = () => {
                                 <LogInLinks isUserLoggedIn={isUserLoggedIn} idUsuario={idUsuario} idMascota={mascota.id} getMascotas={getMascotas}></LogInLinks>
                             </div>
                             <div>
-                                <Link to={`/historiaClinica/${idUsuario}/${mascota.id}`}>
+                                <Link to={`/VetApp/historiaClinica/${idUsuario}/${mascota.id}`}>
                                     <button className="HC">Ver Historia Clínica</button>
                                 </Link>
                             </div>
@@ -149,7 +149,7 @@ const MisMascotas = () => {
             </div>
 
             {isAdmin && (
-                <Link to={`/crear/${idUsuario}`}>
+                <Link to={`/VetApp/crear/${idUsuario}`}>
                     <button id="boton-administrador">Agregar nueva mascota</button>
                 </Link>
             )}

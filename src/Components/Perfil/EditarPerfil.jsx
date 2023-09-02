@@ -24,8 +24,8 @@ const EditarPerfil = () => {
     };
     await updateDoc(perfilDoc, data);
     user.email == "admin@gmail.com"
-      ? navigate(`/clientes`)
-      : navigate(`/perfil/${id}`);
+      ? navigate(`/VetApp/clientes`)
+      : navigate(`/VetApp/perfil/${id}`);
   };
 
   const getPerfil = async () => {
@@ -54,9 +54,6 @@ const EditarPerfil = () => {
           method="POST"
           onSubmit={update}
         >
-          {/* <div className="container_campo">
-            <label htmlFor="id">Id Cliente: {id}</label>
-          </div> */}
           <div className="container_campo campo_edit">
             <label htmlFor="nombre">Nombre</label>
             <input
@@ -86,11 +83,11 @@ const EditarPerfil = () => {
             Guardar
           </button>
           {user.email == "admin@gmail.com" ? (
-            <Link to={`/clientes`}>
+            <Link to={`/VetApp/clientes`}>
               <button className="volver">Volver</button>
             </Link>
           ) : (
-            <Link to={`/perfil/${id}`}>
+            <Link to={`/VetApp/perfil/${id}`}>
               <button className="volver">Volver</button>
             </Link>
           )}

@@ -50,7 +50,7 @@ const LogInLinks = ({ isUserLoggedIn, id }) => {
     if (isUserLoggedIn && user.email == 'admin@gmail.com') {
         return (
             <>
-                <Link to={`/editar/${id}`} className="boton_editar btn btn-primary">
+                <Link to={`/VetApp/editar/${id}`} className="boton_editar btn btn-primary">
                     <i className="fa-solid fa-pencil"></i>
                 </Link>
                 <button onClick={() => { confirmDelete(id) }} className="boton_borrar btn btn-danger">
@@ -114,14 +114,14 @@ const Adopcion = () => {
                     <LogInLinks isUserLoggedIn={isUserLoggedIn} id={id}></LogInLinks>
                 </div>
                 <div className="tarjeta_adopcion_pie">
-                    <Link to={"/formulario"}>
+                    <Link to={"/VetApp/formulario"}>
                         <div>
                             <button type="button" className="botones_seccion_adopcion">¡Quiero adoptar!</button>
                         </div>
                     </Link>
                 </div>
             </div>
-            <Link to={"/adopciones"}>
+            <Link to={"/VetApp/adopciones"}>
                 <button className="botones_seccion_adopcion">Volver</button>
             </Link>
         </div>

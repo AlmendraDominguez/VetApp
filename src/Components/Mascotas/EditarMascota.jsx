@@ -32,7 +32,7 @@ const EditarMascota = () => {
       Edad: Edad,
     };
     await updateDoc(mascotaDoc, data);
-    navigate(`/misMascotas/${idUsuario}`);
+    navigate(`/VetApp/misMascotas/${idUsuario}`);
   };
 
   const getMascota = async () => {
@@ -131,7 +131,7 @@ const EditarMascota = () => {
           <button className="volver btn" type="submit" onClick={update}>
             Guardar cambios
           </button>
-          <Link to={`/misMascotas/${idUsuario}`}>
+          <Link to={`/VetApp/misMascotas/${idUsuario}`}>
             <button className="volver">Volver</button>
           </Link>
         </form>

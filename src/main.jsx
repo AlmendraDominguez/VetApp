@@ -23,16 +23,12 @@ import EditarAdopcion from './Components/Adopciones/EditarAdopcion.jsx';
 import Adopcion from './Components/Adopciones/Adopcion.jsx';
 import AgregarAdopcion from './Components/Adopciones/AgregarAdopcion.jsx';
 import FormularioDeAdopciones from './Components/Adopciones/FormularioDeAdopciones.jsx';
-import Turnos from './Components/Turnos/Turnos.jsx';
-import Turno from './Components/Turno/Turno.jsx';
-import EditarTurno from './Components/Turnos/EditarTurno.jsx'
-import AgendarTurno from './Components/Turnos/AgendarTurno.jsx';
 import Clientes from './Components/Clientes.jsx';
 
 //creamos el router que determina las rutas y que elementos renderizan
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/VetApp",
     element: <App />,
     //con children definimos rutas hijo que se renderizaran dentro de las rutas padre.
     children: [
@@ -111,18 +107,6 @@ const router = createBrowserRouter([
       {
         path: "adopcion/:id",
         element: <Adopcion />
-      },
-      {
-        path: "turnos",
-        element: <Turno />
-      },
-      {
-        path: "/editarTurno/:fechaTurno/:horaTurno",
-        element: <EditarTurno />
-      },
-      {
-        path: "/agendarTurno",
-        element: <AgendarTurno/>
       },
       {
         path: "clientes",

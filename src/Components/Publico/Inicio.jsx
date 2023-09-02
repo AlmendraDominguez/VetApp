@@ -15,12 +15,12 @@ const Inicio = () => {
           <h1 id="titulo_inicio">Cuidamos a tus <br /> mascotas</h1>
 
           <p>Somos una clínica veterinaria integral, pioneros en la <br /> atención especilizada para tus mascotas. Agendá ahora <br /> tu consulta.</p>
-          
+          {/* 
           <div>
             <Link to={user !== null ?"/turnos":"/login"}>
               <button id="btn-consulta-inicio">Agendar Turno</button>
             </Link>
-          </div>
+          </div> */}
         </div>
 
       </div>

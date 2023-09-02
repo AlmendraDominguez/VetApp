@@ -41,7 +41,7 @@ const Registro = () => {
               error
             );
           });
-        navigate("/");
+        navigate("/VetApp");
       })
       //we need to catch the whole sign up process if it fails too.
       .catch((error) => {
@@ -89,7 +89,6 @@ const Registro = () => {
           <input
             type="password"
             name="password"
-            // placeholder="Mínimo 6 caracteres"
             required
             onChange={(e) => setPassword(e.target.value)}
           ></input>
@@ -113,7 +112,7 @@ const Registro = () => {
             onChange={(e) => setApellido(e.target.value)}
           ></input>
 
-          <Link to={"/"} className="Link">
+          <Link to={"/VetApp"} className="Link">
             <button
               className="btn-registro"
               type="submit"
@@ -127,7 +126,7 @@ const Registro = () => {
           </Link>
           <div className="signup_link">
             ¿Ya tenes una cuenta?{" "}
-            <Link to={"/Login"} className="bold">
+            <Link to={"/VetApp/Login"} className="bold">
               <b>Ingresá acá</b>
             </Link>
           </div>

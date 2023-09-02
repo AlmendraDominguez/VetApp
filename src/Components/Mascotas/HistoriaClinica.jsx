@@ -48,7 +48,7 @@ const LogInLinks = ({ isUserLoggedIn, idUsuario, id, idHistoria, getHistoriaClin
     if (isUserLoggedIn && user.email == 'admin@gmail.com') {
         return (
             <>
-                <Link to={`/editarHistoria/${idUsuario}/${id}/${idHistoria}`} className="boton_editar btn btn-light">
+                <Link to={`/VetApp/editarHistoria/${idUsuario}/${id}/${idHistoria}`} className="boton_editar btn btn-light">
                     <i className="fa-solid fa-pencil"></i>
                 </Link>
                 <button onClick={() => { confirmDelete() }} className="boton_borrar btn btn-danger">
@@ -106,7 +106,7 @@ const HistoriaClinica = () => {
             <h1 className="titulo_pagina">Historia Clínica</h1>
             <section className="container_historias">
                 {isAdmin && (
-                    <Link to={`/nuevaEntrada/${idUsuario}/${id}`}>
+                    <Link to={`/VetApp/nuevaEntrada/${idUsuario}/${id}`}>
                         <button className="volver">Nueva Entrada</button>
                     </Link>
                 )}
@@ -133,7 +133,7 @@ const HistoriaClinica = () => {
                 </div>
             </section>
             <div>
-                <Link to={`/misMascotas/${idUsuario}`}>
+                <Link to={`/VetApp/misMascotas/${idUsuario}`}>
                     <button className="volver">Volver</button>
                 </Link>
             </div>
