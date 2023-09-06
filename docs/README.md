@@ -5,6 +5,7 @@ Sistema de consultas para veterinaria "Huellitas".
 Credenciales para navegar como usuario: 
  - Usuario: ejemploDePrueba@gmail.com
  - Contraseña: ejemplodeprueba
+ - 
 Credenciales para navegar como Administrador:
  - Usuario: admin@gmail.com
  - Contraseña: administrador
