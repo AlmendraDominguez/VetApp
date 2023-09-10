@@ -1,6 +1,13 @@
 # VetApp
 Sistema de consultas para veterinaria "Huellitas". 
 
+## Tecnologías Utilizadas
+- React.js
+- Vite
+- Firebase authentication
+- Firestore database
+- React icons
+
 ## CREDENCIALES
 Credenciales para navegar como usuario: 
  - Usuario: ejemploDePrueba@gmail.com
@@ -19,13 +26,4 @@ Credenciales para navegar como Administrador:
 - **Sección Clientes**: El administrador podrá ver una lista de todos los clientes y podrá acceder a las mascotas asociadas a cada uno.
 - **Historia Clínica**: Podrá agregar nuevas entradas a las historias clínicas de las mascotas, que se guardarán en orden con la fecha correspondiente, siendo la más reciente la primera en verse en pantalla. 
 - **Botones**: Como administrador, tendrá acceso a botones de edición, eliminación y adición de animales en adopción, mascotas, usuarios e historias clínicas.
-
-## Tecnologías Utilizadas
-
-- React.js
-- Vite
-- Firebase authentication
-- Firestore database
-- React icons
-
 
